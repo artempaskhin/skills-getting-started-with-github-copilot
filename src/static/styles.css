@@ -136,6 +136,44 @@ button:hover {
   display: none;
 }
 
+/* Participants list styling */
+.participants-heading {
+  margin-top: 12px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #3949ab;
+}
+
+.participants-list {
+  list-style: none;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+
+.participant-item {
+  font-size: 14px;
+  color: #333;
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.participant-remove {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.participant-remove:hover {
+  background-color: rgba(198, 40, 40, 0.08);
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
